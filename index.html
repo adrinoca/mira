@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mira</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap">
+<style>
+  :root {
+    --ground: #14110F;
+    --cream: #E7C9A8;
+    --terracotta: #B4714F;
+    --text: #F4EADC;
+    --text-2: rgba(244, 234, 220, 0.62);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    background:
+      radial-gradient(120% 90% at 50% 0%, #2A211C 0%, transparent 60%),
+      var(--ground);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    display: flex; align-items: center; justify-content: center;
+    padding: 40px 24px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card { max-width: 520px; text-align: center; }
+  .mark {
+    width: 96px; height: 96px; margin: 0 auto 30px; display: block;
+    border-radius: 22.37%; box-shadow: 0 14px 34px rgba(0,0,0,0.5);
+  }
+  h1 {
+    font-family: "Newsreader", Georgia, serif; font-weight: 300;
+    font-size: clamp(40px, 9vw, 62px); margin: 0 0 16px; letter-spacing: -0.02em;
+  }
+  p {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 20px; color: var(--cream); margin: 0 0 34px; line-height: 1.5;
+  }
+  .links { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; }
+  .links a {
+    color: var(--text-2); text-decoration: none; font-size: 14.5px;
+    border-bottom: 1px solid rgba(244,234,220,0.22); padding-bottom: 2px;
+  }
+  .links a:hover { color: var(--cream); border-color: var(--cream); }
+  .links a:focus-visible { outline: 2px solid var(--cream); outline-offset: 3px; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <svg class="mark" viewBox="0 0 1024 1024" aria-label="Mira">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#2A211C"/><stop offset="100%" stop-color="#12100E"/>
+        </linearGradient>
+        <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#E9CBA9"/>
+          <stop offset="52%" stop-color="#C98A62"/>
+          <stop offset="100%" stop-color="#8E4F36"/>
+        </linearGradient>
+        <clipPath id="c"><rect x="236" y="196" width="552" height="632" rx="104"/></clipPath>
+      </defs>
+      <rect width="1024" height="1024" fill="url(#g)"/>
+      <g clip-path="url(#c)">
+        <rect x="236" y="196" width="552" height="632" fill="url(#s)"/>
+        <circle cx="512" cy="556" r="112" fill="#F6E3C8" opacity="0.95"/>
+        <rect x="236" y="612" width="552" height="216" fill="#17120F"/>
+      </g>
+      <rect x="236" y="196" width="552" height="632" rx="104" fill="none"
+            stroke="#E7C9A8" stroke-width="40"/>
+    </svg>
+
+    <h1>Mira</h1>
+    <p>The life you're building, every time you pick up your phone.</p>
+
+    <div class="links">
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+    </div>
+  </div>
+</body>
+</html>
