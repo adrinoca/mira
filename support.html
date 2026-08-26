@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Mira</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+  :root {
+    --ground: #14110F;
+    --cream: #E7C9A8;
+    --terracotta: #B4714F;
+    --text: #F4EADC;
+    --text-2: rgba(244, 234, 220, 0.68);
+    --hairline: rgba(244, 234, 220, 0.13);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 660px; margin: 0 auto; padding: 72px 24px 100px; }
+  .eyebrow {
+    font-size: 11.5px; letter-spacing: 0.18em; text-transform: uppercase;
+    color: var(--terracotta); font-weight: 600; margin: 0 0 16px;
+  }
+  h1 {
+    font-family: "Newsreader", Georgia, serif; font-weight: 400;
+    font-size: clamp(34px, 6vw, 46px); line-height: 1.1; margin: 0 0 10px;
+    letter-spacing: -0.015em;
+  }
+  .updated { color: rgba(244,234,220,0.42); font-size: 14px; margin: 0 0 40px; }
+  .lead {
+    font-family: "Newsreader", Georgia, serif; font-size: 21px;
+    color: var(--cream); margin: 0 0 40px; line-height: 1.5;
+  }
+  h2 {
+    font-family: "Newsreader", Georgia, serif; font-weight: 400;
+    font-size: 23px; margin: 40px 0 10px; letter-spacing: -0.01em;
+  }
+  p { color: var(--text-2); margin: 0 0 14px; font-size: 16px; }
+  ul, ol { color: var(--text-2); padding-left: 20px; margin: 0 0 14px; font-size: 16px; }
+  li { margin-bottom: 8px; }
+  a { color: var(--cream); }
+  strong { color: var(--text); font-weight: 500; }
+  /* The one thing a support page exists for: reachable without scrolling,
+     and a real mailto so App Review can see it works. */
+  .contact {
+    margin: 0 0 44px; padding: 22px 24px;
+    border: 1px solid var(--hairline); border-radius: 16px;
+    background: rgba(244, 234, 220, 0.035);
+  }
+  .contact p { margin: 0 0 6px; font-size: 15px; }
+  .contact a {
+    font-family: "Newsreader", Georgia, serif; font-size: 25px;
+    text-decoration: none; border-bottom: 1px solid rgba(231, 201, 168, 0.35);
+  }
+  .contact a:hover { border-bottom-color: var(--cream); }
+  .reply { font-size: 14px; color: rgba(244,234,220,0.42); margin: 10px 0 0; }
+  footer {
+    margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--hairline);
+    font-size: 14px; color: rgba(244,234,220,0.42);
+  }
+  footer a { color: rgba(244,234,220,0.62); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <p class="eyebrow">Mira</p>
+  <h1>Support</h1>
+  <p class="updated">Last updated: 25 August 2026</p>
+
+  <p class="lead">
+    Mira puts your vision board on your Home Screen, so the life you're building
+    is the thing you see every time you pick up your phone.
+  </p>
+
+  <div class="contact">
+    <p>Questions, problems, or anything else:</p>
+    <a href="mailto:adnnocca@gmail.com">adnnocca@gmail.com</a>
+    <p class="reply">Written by one person. I read every message and usually reply within a couple of days.</p>
+  </div>
+
+  <h2>My widget isn't changing</h2>
+  <p>
+    iOS decides when to refresh a widget, so a rotation can run a few minutes late —
+    that part is normal. If it seems stuck for much longer:
+  </p>
+  <ul>
+    <li>Open Mira once. That hands iOS fresh content for the widget.</li>
+    <li>Check <strong>Settings → Rotation</strong> inside Mira. On the free plan the fastest rotation is hourly.</li>
+    <li>If you pinned a phrase with <strong>Show this on my widget today</strong>, the board stops rotating until tomorrow on purpose. Tap <strong>Back to rotating my board</strong> to undo it.</li>
+    <li>Make sure Low Power Mode is off. iOS holds widget updates back while it's on.</li>
+  </ul>
+
+  <h2>Managing or cancelling a subscription</h2>
+  <p>
+    Subscriptions are handled by Apple, not by Mira, so they're cancelled from your
+    Apple account:
+  </p>
+  <ol>
+    <li>Open the iPhone <strong>Settings</strong> app.</li>
+    <li>Tap your name at the top, then <strong>Subscriptions</strong>.</li>
+    <li>Choose <strong>Mira</strong>, then <strong>Cancel Subscription</strong>.</li>
+  </ol>
+  <p>
+    Cancelling during a free trial stops it before any payment is taken. You keep
+    Premium until the period you've already paid for ends.
+  </p>
+
+  <h2>I paid but Premium isn't showing</h2>
+  <p>
+    Open Mira, go to <strong>Settings → Restore purchases</strong>, and make sure
+    you're signed in to the same Apple Account you bought with. That also restores
+    Lifetime on a new phone.
+  </p>
+  <p>
+    Refunds are handled by Apple, at
+    <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> — I can't
+    issue them, but write to me if something went wrong and I'll help you sort it out.
+  </p>
+
+  <h2>Will I lose my board if I delete the app?</h2>
+  <p>
+    Yes. Everything Mira knows lives on your iPhone and nowhere else, so deleting the
+    app deletes your board, your saved phrases and your settings. There's no account
+    to sign back into. A purchase you've made is tied to your Apple Account, not the
+    app, so <strong>Restore purchases</strong> brings Premium back.
+  </p>
+
+  <h2>Getting a new phone</h2>
+  <p>
+    An encrypted iPhone backup carries your board across. If you set the new phone up
+    fresh instead, the board starts empty — use <strong>Restore purchases</strong> to
+    bring Premium back.
+  </p>
+
+  <footer>
+    <a href="./privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+  </footer>
+
+</div>
+</body>
+</html>
