@@ -13,8 +13,8 @@ export function createPhone(el) {
       if (key === current) return
       current = key
       for (const img of photos) {
-        img.srcset = [480, 800, 1400].map((w) => `${base}area_${key}-${w}.jpg ${w}w`).join(', ')
-        img.src = `${base}area_${key}-800.jpg`
+        img.srcset = [480, 800, 1400].map((w) => `${base}area_${key}-${w}.webp ${w}w`).join(', ')
+        img.src = `${base}area_${key}-800.webp`
       }
     },
   }

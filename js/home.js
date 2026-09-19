@@ -36,8 +36,8 @@ for (const chip of chips) {
 }
 
 runFilm(hero, {
-  photos: data.flash.map((key) => `${data.img}area_${key}-480.jpg`),
-  finalPhoto: `${data.img}area_${data.areas[0].key}-480.jpg`,
+  photos: data.flash.map((key) => `${data.img}area_${key}-480.webp`),
+  finalPhoto: `${data.img}area_${data.areas[0].key}-480.webp`,
   reduced,
   onDone: () => {
     if (reduced) { select(data.areas[0]); write(data.areas[0].phrases[0]) }

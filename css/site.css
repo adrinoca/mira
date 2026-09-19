@@ -5,7 +5,7 @@
 :root {
   --ground: #14110F; --surface: #1E1A17; --raised: #2A2320;
   --cream: #E7C9A8; --terracotta: #B4714F; --ink: #201612;
-  --text: #F7F0E7; --text-2: rgba(247, 240, 231, .68); --text-3: rgba(247, 240, 231, .46);
+  --text: #F7F0E7; --text-2: rgba(247, 240, 231, .68); --text-3: rgba(247, 240, 231, .55);
   --hairline: rgba(247, 240, 231, .11);
   --serif: 'Newsreader', 'Iowan Old Style', Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
