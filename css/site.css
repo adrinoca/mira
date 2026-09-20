@@ -344,5 +344,6 @@ a.wall-card:hover p { text-decoration: underline; text-underline-offset: 3px; }
 .guide-bullets { display: grid; gap: 8px; margin: 18px 0 0; padding-left: 20px; color: var(--text-2); }
 .guide-shot { margin: 28px 0 0; }
 .guide-shot img { width: 100%; max-width: 320px; height: auto; border-radius: 28px; border: 1px solid var(--hairline); }
+.guide-section .guide-link { margin-top: 18px; }
 .guide-section .guide-tip { margin-top: 20px; padding: 16px 18px; border-radius: 14px; background: var(--surface); border: 1px solid var(--hairline); font-size: 15px; }
 @media (max-width: 760px) { .guide { padding-top: 96px; } .guide-closing .store-badge { display: none; } }
